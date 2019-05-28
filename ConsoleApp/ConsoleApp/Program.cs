@@ -12,7 +12,6 @@ namespace ConsoleApp
         {
             Console.Write("Hello,World");
             Console.ReadKey();
-            aaaa
         }
     }
 }
