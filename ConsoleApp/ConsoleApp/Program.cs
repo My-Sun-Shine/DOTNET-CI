@@ -55,17 +55,6 @@ namespace ConsoleApp
             Console.Write("Hello,World");
             Console.ReadKey();
         }
-        class MyClass
-        {
-            public void DoStuff([Optional] ref int i) // Noncompliant
-            {
-                Console.WriteLine(i);
-            }
-
-            public static void Main()
-            {
-                new MyClass().DoStuff(); // This doesn't compile, CS7036 shows
-            }
-        }
+       
     }
 }
