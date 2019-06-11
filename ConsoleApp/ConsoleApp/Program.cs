@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,9 +11,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            int await = 42; // Noncompliant
             List<string> lst = new List<string>();
-            HasContent2(lst);
-            if (lst.Count == 0)
+            
+            if (HasContent2(lst);)
             {
                 Console.Write("123");
             }
