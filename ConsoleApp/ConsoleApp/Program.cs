@@ -14,7 +14,7 @@ namespace ConsoleApp
             int await = 42; // Noncompliant
             List<string> lst = new List<string>();
             
-            if (HasContent2(lst);)
+            if (HasContent2(lst))
             {
                 Console.Write("123");
             }
