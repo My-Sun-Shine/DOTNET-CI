@@ -11,9 +11,14 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            int await = 42; // Noncompliant
+            int await = 42;
+            string i = "1";
+            string j = "1";
             List<string> lst = new List<string>();
-            
+            if (i == j)
+            {
+                Console.Write("345");
+            }
             if (HasContent2(lst))
             {
                 Console.Write("123");
