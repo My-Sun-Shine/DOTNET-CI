@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            //string a = "a";
+            string a = "abc";
+            string b = "abc";
+            string c = "abc";
+            string d = "abc";
             Console.Write("Hello,World");
             Console.ReadKey();
         }
