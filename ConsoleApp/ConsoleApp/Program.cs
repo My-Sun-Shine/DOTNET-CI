@@ -10,12 +10,19 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            string a = "abc";
-            string b = "abc";
-            string c = "abc";
-            string d = "abc";
+            List<string> lst = new List<string>();
+            HasContent2(lst);
+            if (lst.Count == 0)
+            {
+                Console.Write("123");
+            }
+                
             Console.Write("Hello,World");
             Console.ReadKey();
+        }
+        private static bool HasContent2(List<string> strings)
+        {
+            return strings.Count() >= 1;  // Noncompliant
         }
     }
 }
